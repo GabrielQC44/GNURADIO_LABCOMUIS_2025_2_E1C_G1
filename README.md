@@ -8,11 +8,24 @@ Determinar y cuantificar la atenuación (pérdida de señal) introducida por dif
 
 ## Fase 1
 
-Para esta fase se utilizó el cable
-
 ![Fase 1](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/f928230a88c684a549bf4596c29c666983b65f80/imagenes/Mision_2/F_1.jpg)
 
 Figura 1: Configuración experimental para medir la atenuación de los cables coaxiales en diferentes frecuencias.
+
+## Fase 2
+
+![Fase 2 – 140 pies](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/f928230a88c684a549bf4596c29c666983b65f80/imagenes/Mision_2/F_2_140FT.jpg)
+
+Figura 2: Medición de atenuación con cable de 140 pies.
+
+
+![Fase 2 – 80 pies](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/f928230a88c684a549bf4596c29c666983b65f80/imagenes/Mision_2/F_2_80FT.jpg)
+
+Figura 3: Medición de atenuación con cable de 80 pies.
+
+
+
+
 
 
 
