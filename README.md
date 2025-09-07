@@ -23,6 +23,8 @@ Figura 2: Medición de atenuación con cable de 140 pies.
 
 Figura 3: Medición de atenuación con cable de 80 pies.
 
+## Fase 3
+
 
 
 
