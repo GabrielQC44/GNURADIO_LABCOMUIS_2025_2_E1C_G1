@@ -3,7 +3,7 @@ Repositorio de laboratorio de Comunicaciones I. Presentado por: Gabriel Camilo Q
 
 ---
 
-## Práctica 1 - Exploración del Espectro con GNU Radio
+## Misión 1 - Exploración del Espectro con GNU Radio
 
 ### Fase 1: Exploración y Descubrimiento
 Se conectó la antena al receptor SDR y, utilizando GNU Radio, se realizó un barrido del espectro radioeléctrico en el rango de 50 a 2200 MHz.
