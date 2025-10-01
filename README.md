@@ -26,7 +26,7 @@ Figura 3: Medición de atenuación con cable de 80 pies.
 ## Fase 3
 
 
-# 📡 Cálculo de Atenuación en Cables de RF
+#  Cálculo de Atenuación en Cables de RF
 
 Este proyecto muestra el cálculo de la **atenuación teórica** y la **atenuación práctica** de un cable coaxial a distintas frecuencias y longitudes (80 ft y 140 ft).
 
