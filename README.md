@@ -1,3 +1,4 @@
+
 # Misión 1 - Exploración del Espectro con GNU Radio y Equipos de Medida
 
 ---
@@ -70,3 +71,10 @@ Mediante el uso de SDR, analizador de espectro y osciloscopio se logró:
 3. Validar la coherencia en el dominio temporal y espectral.  
 
 Esto evidencia la importancia del uso complementario de herramientas de software (SDR) y hardware (analizador y osciloscopio) en el estudio práctico de las comunicaciones.
+=======
+# GNURADIO_LABCOMUIS_2025_2_E1C_G1
+Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias
+
+
+
+
