@@ -27,32 +27,60 @@ Se utilizaron diferentes señales como entrada en el bloque `Signal Source`:
 
 
 
-# Fase 2: Conexión y Modulación
+## Fase 2
 
-## Conexión Segura
-- TX1/RX1 del USRP conectado al atenuador.  
-- Atenuador conectado al canal 1 del osciloscopio.  
-- La amplitud de la envolvente compleja se mantuvo menor a **0.5**.  
+### Conexión Segura
+Conecte la salida de transmisión (TX1 / RX1) de su SDR al atenuador, y la salida del atenuador a la entrada del canal 1 del osciloscopio.  
+**Nota:** recuerde que la amplitud máxima de la envolvente compleja debe ser menor a 0.5.
 
-## Modulación con Señales Periódicas
+### Modulación con Señales Periódicas
+- Ejecute su diagrama de flujo de AM con la señal sinusoidal. Observe la forma de onda en el osciloscopio. Capture una imagen de la pantalla.  
+- Sin detener la transmisión, cambie la señal moduladora a la onda cuadrada. Observe cómo se modifica la envolvente. Capture una imagen.  
+- Repita el procedimiento con las señales diente de sierra y triangular.
 
-- **Onda sinusoidal (1 kHz):**  
-![Figura 1 - AM con onda sinusoidal](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_1.jpg)
+**Señal senoidal (1 kHz):**  
+*(inserte aquí la imagen)*  
 
-- **Onda cuadrada (1 kHz):**  
-![Figura 2 - AM con onda cuadrada](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_2.jpg)
+**Señal cuadrada (1 kHz):**  
+*(inserte aquí la imagen)*  
 
-- **Onda triangular:**  
-![Figura 3 - AM con onda triangular](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_3.jpg)
+**Señal diente de sierra (1 kHz):**  
+*(inserte aquí la imagen)*  
 
-- **Onda diente de sierra:**  
-![Figura 4 - AM con onda diente de sierra](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_4.jpg)
+**Señal triangular (1 kHz):**  
+*(inserte aquí la imagen)*  
 
-*(se pueden agregar más capturas si corresponde: `Fase2_5.jpg` a `Fase2_10.jpg`)*  
+### Modulación con Audio
+- Seleccione el diagrama de flujo de AM.  
+- Utilice la fuente de audio (micrófono) y hable o reproduzca sonido.  
+- Observe cómo la amplitud de la portadora sigue la forma de onda de la voz.
 
-## Modulación con Audio
-- Fuente: `Audio Source` (micrófono).  
-- La envolvente de la portadora siguió las variaciones de la voz/sonido.  
+**Señal de audio (voz/micrófono):**  
+*(inserte aquí la imagen)*  
 
-![Figura 5 - AM con señal de audio](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_5.jpg)
+
+---
+
+## Evidencias (todas las fotos)
+
+![Fase2_1](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_1.jpg)  
+
+![Fase2_2](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_2.jpg)  
+
+![Fase2_3](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_3.jpg)  
+
+![Fase2_4](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_4.jpg)  
+
+![Fase2_5](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_5.jpg)  
+
+![Fase2_6](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_6.jpg)  
+
+![Fase2_7](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_7.jpg)  
+
+![Fase2_8](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_8.jpg)  
+
+![Fase2_9](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_9.jpg)  
+
+![Fase2_10](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_10.jpg)  
+
 
