@@ -145,35 +145,41 @@ Como observación se añadió la señal encontrada en 96.9 que no se encontraba 
 
 ## Fase 3: Análisis y Cruce de Datos
 
-Tabla maestra comparativa entre la lista oficial (Fase 1) y el monitoreo de campo (Fase 2).
+Durante el monitoreo de campo se detectaron tres señales inicialmente clasificadas como **Transmisiones No Identificadas (TNI)**.  
+Tras la verificación en fuentes externas, se identificó que corresponden a emisoras legalmente establecidas en Bucaramanga:
 
-| Frecuencia Oficial (MHz) | Nombre Emisora (Oficial)                     | Frecuencia Detectada (Campo) | Potencia relativa (dB) | Clasificación       | Código |
-|--------------------------|-----------------------------------------------|------------------------------|------------------------|---------------------|--------|
-| 88.2                     | Emisora Comunitaria San Juan de Girón        | No detectada                  | –                      | No detectada        | ND     |
-| 88.8                     | Emisora Comunitaria en Floridablanca         | No detectada                  | –                      | No detectada        | ND     |
-| 90.7                     | W Radio                                      | 90.7                          | -38.36                 | Coincidencia Legal  | CL     |
-| 91.2                     | La Voz de Lebrija                            | No detectada                  | –                      | No detectada        | ND     |
-| 91.9                     | Policía Nacional Bucaramanga                 | No detectada                  | –                      | No detectada        | ND     |
-| 92.3                     | Radiónica                                    | 92.3                          | -54.82                 | Coincidencia Legal  | CL     |
-| 92.9                     | Colombia Estéreo                             | 92.9                          | -45.24                 | Coincidencia Legal  | CL     |
-| 93.4                     | Emisora Comunitaria La Brújula               | 93.4                          | -47.35                 | Coincidencia Legal  | CL     |
-| 95.7                     | Tropicana                                    | 95.7                          | -43.59                 | Coincidencia Legal  | CL     |
-| 96.2                     | Santo Tomás Estéreo                          | 96.2                          | -68.14                 | Coincidencia Legal  | CL     |
-| 100.7                    | Emisora Cultural Luis Carlos Galán           | 100.7                         | -55.56                 | Coincidencia Legal  | CL     |
-| 101.7                    | UTS - Tu Radio Stereo                        | 101.7                         | -64.35                 | Coincidencia Legal  | CL     |
-| 102.5                    | La Mega Estéreo                              | 102.5                         | -53.60                 | Coincidencia Legal  | CL     |
-| 103.7                    | Rumba Estéreo                                | 103.7                         | -56.36                 | Coincidencia Legal  | CL     |
-| 104.7                    | Bésame                                       | 104.7                         | -55.25                 | Coincidencia Legal  | CL     |
-| 105.1                    | La Guapachosa 105.1                          | 105.1                         | -73.47                 | Coincidencia Legal  | CL     |
-| 106.7                    | Radio Uno                                    | 106.7                         | -65.95                 | Coincidencia Legal  | CL     |
-| 107.1                    | La U Radio                                   | No detectada                  | –                      | No detectada        | ND     |
+- **91.7 MHz – Radio Policía Bucaramanga**  
+- **94.7 MHz – KV 94.7 FM**  
+- **96.9 MHz – UIS Estéreo Bucaramanga**
 
+Estas emisoras se incorporaron a la Tabla Maestra como **Coincidencias Legales (CL)**.  
 
-**Señales detectadas en campo sin registro oficial** (añadidas a la tabla como TNI):
+---
 
-| Frecuencia Detectada (MHz) | Potencia relativa (dB) | Clasificación |
-|---------------------------:|------------------------:|---------------|
-| 91.7                       | -24.37                 | Transmisión No Identificada (TNI) |
-| 94.7                       | -65.51                 | Transmisión No Identificada (TNI) |
-| 96.9                       | -46.91                 | Transmisión No Identificada (TNI) |
+### Tabla Maestra Comparativa
+
+| Frecuencia Oficial (MHz) | Nombre Emisora (Oficial)               | Frecuencia Detectada (Campo) | Potencia relativa (dB) | Clasificación      | Código |
+|--------------------------|----------------------------------------|------------------------------|------------------------|--------------------|--------|
+| 88.2                     | Emisora Comunitaria San Juan de Girón  | No detectada                  | –                      | No detectada       | ND     |
+| 88.8                     | Emisora Comunitaria en Floridablanca   | No detectada                  | –                      | No detectada       | ND     |
+| 90.7                     | W Radio                                | 90.7                          | -38.36                 | Coincidencia Legal | CL     |
+| 91.2                     | La Voz de Lebrija                      | No detectada                  | –                      | No detectada       | ND     |
+| 91.7                     | Radio Policía Bucaramanga              | 91.7                          | -24.37                 | Coincidencia Legal | CL     |
+| 91.9                     | Policía Nacional Bucaramanga (oficial) | No detectada                  | –                      | No detectada       | ND     |
+| 92.3                     | Radiónica                              | 92.3                          | -54.82                 | Coincidencia Legal | CL     |
+| 92.9                     | Colombia Estéreo                       | 92.9                          | -45.24                 | Coincidencia Legal | CL     |
+| 93.4                     | Emisora Comunitaria La Brújula         | 93.4                          | -47.35                 | Coincidencia Legal | CL     |
+| 94.7                     | KV 94.7 FM                             | 94.7                          | -65.51                 | Coincidencia Legal | CL     |
+| 95.7                     | Tropicana                              | 95.7                          | -43.59                 | Coincidencia Legal | CL     |
+| 96.2                     | Santo Tomás Estéreo                    | 96.2                          | -68.14                 | Coincidencia Legal | CL     |
+| 96.9                     | UIS Estéreo Bucaramanga                | 96.9                          | -46.91                 | Coincidencia Legal | CL     |
+| 100.7                    | Emisora Cultural Luis Carlos Galán     | 100.7                         | -55.56                 | Coincidencia Legal | CL     |
+| 101.7                    | UTS - Tu Radio Stereo                  | 101.7                         | -64.35                 | Coincidencia Legal | CL     |
+| 102.5                    | La Mega Estéreo                        | 102.5                         | -53.60                 | Coincidencia Legal | CL     |
+| 103.7                    | Rumba Estéreo                          | 103.7                         | -56.36                 | Coincidencia Legal | CL     |
+| 104.7                    | Bésame                                 | 104.7                         | -55.25                 | Coincidencia Legal | CL     |
+| 105.1                    | La Guapachosa 105.1                    | 105.1                         | -73.47                 | Coincidencia Legal | CL     |
+| 106.7                    | Radio Uno                              | 106.7                         | -65.95                 | Coincidencia Legal | CL     |
+| 107.1                    | La U Radio                             | No detectada                  | –                      | No detectada       | ND     |
+
 
