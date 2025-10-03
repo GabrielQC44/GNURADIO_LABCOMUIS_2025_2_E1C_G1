@@ -1,54 +1,72 @@
-# GNURADIO_LABCOMUIS_2025_2_E1C_G1
-Repositorio de laboratorio de Comunicaciones I. Presentado por: Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias.
+# Misión 1 - Exploración del Espectro con GNU Radio y Equipos de Medida
 
 ---
 
-## Misión 1 - Exploración del Espectro con GNU Radio
+## Fase 1: Exploración con SDR (USRP + GNU Radio)
 
-### Fase 1: Exploración y Descubrimiento
-Se conectó la antena al receptor SDR y, utilizando GNU Radio, se realizó un barrido del espectro radioeléctrico en el rango de 50 a 2200 MHz.
+Se conectó la antena al receptor SDR y se realizó un barrido del espectro radioeléctrico en el rango de 94 a 106 MHz, dentro de la banda de radiodifusión FM.  
+La visualización en GNU Radio permitió identificar varias emisoras activas, entre ellas señales destacadas alrededor de 95.7 MHz, 99.7 MHz y 04 MHz.  
 
-#### Señales Identificadas:
-- Radiodifusión FM (88–108 MHz)  
-- Servicio de telefonía móvil (~830 MHz) 
-- Posibles transmisiones de datos (>1200 MHz)  
+Adicionalmente, se configuró el receptor SDR en la banda de 830 MHz (servicios de telefonía móvil).  
+Durante esta prueba, al realizar una llamada a la línea de atención móvil de Claro, se observó una alteración inmediata en el espectro, lo que evidencia la actividad generada por el establecimiento de la comunicación.  
 
-#### Señal Seleccionada:
-- **Frecuencia central:** ~830 MHz  
-- **Observación:** Al realizar una llamada al centro de atención de **Claro**, se evidenció una alteración en el espectro, confirmando actividad en la red.  
+#### Evidencia
+![Espectro en GNU Radio](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Mision_1/Analisis_en_frecuencia_GNU_usando_USRP_con_antena_SDR.png)
 
-#### Conclusión:
-El uso del SDR permitió identificar servicios activos dentro del espectro y observar en tiempo real cómo una acción (llamada móvil) genera variaciones en una frecuencia específica.
+#### Conclusión
+El SDR brindó una visión panorámica en tiempo real del espectro, mostrando qué frecuencias estaban activas de forma continua.  
+Además, permitió verificar experimentalmente cómo una acción del usuario (como iniciar una llamada móvil) genera tráfico radioeléctrico visible en la banda de 830 MHz.  
+Esta exploración permitió seleccionar la frecuencia de 99.7 MHz como señal de interés para el análisis posterior en equipos de laboratorio.
 
-# **Fase 2 – Misión 1: Análisis con Analizador de Espectro**
+---
 
-## **Enfoque**
-Se conectó la antena al analizador de espectro para capturar la señal previamente identificada mediante el SDR.
+## Fase 2: Análisis en el Analizador de Espectro
 
-## **Configuración Fina**
-- **Frecuencia de referencia inicial:** 96.9 MHz  
-- **Frecuencia central real medida:** 95.6 MHz  
-- **SPAN:** Ajustado a **1 MHz** para realizar un “zoom” en la señal.  
-- **RBW:** Configurado a un valor bajo para mejorar la resolución y distinguir claramente la portadora y sus componentes adyacentes.  
+Posteriormente, se utilizó el analizador de espectro Rohde & Schwarz FPC1000 para centrar la atención en la emisora de 99.7 MHz.  
+Se configuraron los parámetros de medición para mejorar la resolución:  
 
-## **Recolección de Datos (Dominio de la Frecuencia)**
-- Frecuencia Central (pico de portadora): 95.6 MHz  
-- Marcadores de ancho de banda:  
-  - Extremo izquierdo: -140.44 kHz  
-  - Extremo derecho: +184.433 kHz  
-  - **Ancho de banda total: ≈ 324.873 kHz  
+- Frecuencia central: 99.7 MHz  
+- SPAN: 5 MHz  
+- RBW/VBW: 100 kHz  
+- Nivel de potencia pico: ≈ -64 dBm  
+- Ancho de banda total: ≈ 325 kHz  
 
-  - Potencia de la señal: 
-  - Pico central: ≈ -53.32 dBm (promedio)  
-  - Extremo izquierdo: -31.22 dB  
-  - Extremo derecho: -30.64 dB  
+#### Evidencia
+![Espectro ajustado a 99.7 MHz](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Mision_1/Espectro_ajustado_para_99.7Mhz.jpeg)
 
-## **Estrategia de Configuración**
-- RBW (Resolución): Se seleccionó un RBW reducido para mejorar la capacidad de distinguir detalles finos en la señal.  
-- SPAN: Se estableció en 1 MHz, permitiendo observar la señal completa con margen para identificar sus límites.  
+#### Conclusión
+El analizador permitió confirmar con precisión la frecuencia central de la emisora y medir su potencia relativa.  
+Se obtuvo un ancho de banda de aproximadamente 325 kHz, valor típico de FM comercial.  
+La resolución ajustada (RBW) permitió distinguir claramente la portadora y sus componentes laterales.
 
-## Evidencia
-![Captura del espectro](captura_fase2.png)
+---
 
-## **Conclusión**
-La señal originalmente identificada en 96.9 MHz fue detectada con mayor precisión en **95.6 MHz**. Mediante un ajuste adecuado de SPAN y RBW se logró aislar, medir y analizar la portadora, determinando un **ancho de banda aproximado de 325 kHz** y una **potencia pico promedio de -53.32 dBm**, cumpliendo con los objetivos de la práctica.
+## Fase 3: Validación en Osciloscopio con FFT
+
+Finalmente, se conectó la señal al osciloscopio digital Rohde & Schwarz RTB2004 y se activó la función de FFT para comparar la medición en el dominio del tiempo con su representación en frecuencia.  
+
+- Frecuencia central: 99.7 MHz  
+- SPAN: 5.72 MHz  
+- RBW: 28.6 kHz  
+- Potencia pico estimada: ≈ -56 dBm  
+- Ancho de banda observado: ~300 kHz  
+
+#### Evidencia
+![Señal del Osciloscopio con FFT a 99.7 MHz](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Mision_1/Señal_del_Osciloscopio_usando_la_FFT_para_99.7MHz.jpeg)
+
+#### Conclusión
+El osciloscopio confirmó la misma frecuencia central observada en el analizador, validando además la forma espectral en el dominio de tiempo y frecuencia.  
+Aunque su estimación de potencia es menos precisa, permitió comprobar la coherencia de la señal medida.
+
+---
+
+## Conclusión General 
+
+La misión permitió identificar, aislar y analizar señales reales del espectro radioeléctrico.  
+Mediante el uso de SDR, analizador de espectro y osciloscopio se logró:  
+
+1. Explorar el espectro y detectar múltiples emisoras FM y servicios móviles.  
+2. Medir con precisión frecuencia central, ancho de banda y potencia de la señal seleccionada (99.7 MHz).  
+3. Validar la coherencia en el dominio temporal y espectral.  
+
+Esto evidencia la importancia del uso complementario de herramientas de software (SDR) y hardware (analizador y osciloscopio) en el estudio práctico de las comunicaciones.
