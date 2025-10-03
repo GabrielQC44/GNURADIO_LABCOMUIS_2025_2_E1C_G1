@@ -84,3 +84,36 @@ Conecte la salida de transmisión (TX1 / RX1) de su SDR al atenuador, y la salid
 ![Fase2_10](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_10.jpg)  
 
 
+
+## Fase 3: Análisis de Espectro y Comparación
+
+### Tabla Comparativa de Señales Moduladoras
+
+| Tipo de Señal Moduladora | Descripción de la Señal | Características en el Dominio de la Frecuencia | Efecto de la Modulación |
+|--------------------------|--------------------------|------------------------------------------------|--------------------------|
+| Senoidal                | Una señal sinusoidal pura, sin distorsión. | La señal modulada se muestra como una variación pequeña alrededor de la frecuencia portadora. Aparecen picos nítidos cercanos a la portadora (espectro estrecho). | La modulación con onda senoidal genera un espectro simple y definido, con mayor fidelidad y poca distorsión. |
+| Cuadrada                | Una señal cuadrada ideal, con transiciones abruptas. | La señal modulada muestra una estructura con más armónicos (múltiplos de la frecuencia fundamental). El espectro es más amplio alrededor de la portadora. | La modulación con onda cuadrada produce mayor dispersión de armónicos y distorsión debido a las transiciones rápidas. |
+| Triangular              | Una señal triangular periódica. | Presenta armónicos impares, pero con amplitudes que decrecen más rápido que la cuadrada. El espectro es más “suave” que el de la onda cuadrada. | La modulación triangular genera menos distorsión que la cuadrada, pero mantiene un contenido armónico moderado. |
+| Diente de sierra        | Una señal periódica con pendiente lineal y reinicio abrupto. | Contiene armónicos de mayor amplitud y más densos que la triangular. El espectro se dispersa de manera notable alrededor de la portadora. | La modulación diente de sierra produce un espectro con fuerte contenido armónico, más complejo y con mayor dispersión. |
+| Sonora (Audio)          | Una señal de audio (voz/música). | El espectro es irregular y mucho más amplio, reflejando variaciones en amplitud y frecuencia del sonido. | La modulación con audio genera un espectro rico en frecuencias, que refleja la complejidad de la señal de voz/música. |
+
+---
+
+### Descripción Técnica
+
+1. **Senoidal:** Genera un espectro limpio con mínima distorsión.  
+2. **Cuadrada:** Introduce muchos armónicos, lo que puede llevar a distorsión significativa.  
+3. **Triangular:** Tiene armónicos, pero de menor intensidad que la cuadrada; modulación más suave.  
+4. **Diente de sierra:** Produce un espectro más denso en armónicos y mayor dispersión.  
+5. **Audio:** Captura la complejidad del sonido con un espectro amplio y variable.
+
+---
+
+### Evidencia Experimental
+
+**Señal medida en el analizador de espectro:**  
+
+![Señal de espectro Fase 3](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase3_1.jpg)
+
+
+
