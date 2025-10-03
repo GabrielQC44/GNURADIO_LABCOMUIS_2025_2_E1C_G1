@@ -18,28 +18,27 @@ Auditar el espectro de radiodifusión sonora en **Frecuencia Modulada (FM)** de 
 Se consultó la base de datos oficial del Sistema de Gestión del Espectro (SGE) y el CNABF del MinTIC.  
 A continuación se listan las emisoras de FM registradas en Bucaramanga y su área metropolitana:
 
-| Municipio       | Nombre comercial de la Emisora                              | Frecuencia Asignada | Distintivo de Llamada | Clase de Emisora (Área de Servicio) | Clase de Emisora (Gestión de Servicio) | Clase de Emisora (PTNRS) |
-|-----------------|-------------------------------------------------------------|---------------------|-----------------------|--------------------------------------|----------------------------------------|--------------------------|
-| Bucaramanga     | Emisora Cultural Luis Carlos Galán Sarmiento               | 100.7 MHz           | HJC95                 | Zonal                                | Directa                                | B                        |
-| Bucaramanga     | UTS - Tu Radio Stereo                                       | 101.7 MHz           | HJC99                 | Zonal                                | Directa                                | C                        |
-| Bucaramanga     | La Mega Estéreo                                             | 102.5 MHz           | HJQ66                 | Zonal                                | Indirecta                              | Zonal                    |
-| San Juan de Girón | Rumba Estéreo                                             | 103.7 MHz           | HJA83                 | Zonal                                | Indirecta                              | C                        |
-| Floridablanca   | Bésame                                                      | 104.7 MHz           | HJYF                  | Zonal                                | Indirecta                              | C                        |
-| Bucaramanga     | La Guapachosa 105.1                                         | 105.1 MHz           | HUJ95                 | Local Restringido                    | Indirecta                              | D                        |
-| Piedecuesta     | Radio Uno                                                   | 106.7 MHz           | HJYC                  | Zonal                                | Indirecta                              | C                        |
-| Floridablanca   | La U Radio                                                  | 107.1 MHz           | HKL21                 | Zonal Restringido                    | Indirecta                              | D                        |
-| San Juan de Girón | Emisora Comunitaria San Juan de Girón                     | 88.2 MHz            | HKL24                 | Zonal Restringido                    | Indirecta                              | D                        |
-| Floridablanca   | Emisora Comunitaria en Floridablanca                        | 88.8 MHz            | HJS57                 | Zonal                                | Indirecta                              | C                        |
-| Bucaramanga     | W Radio                                                     | 90.7 MHz            | HJQ34                 | Zonal                                | Indirecta                              | Zonal                    |
-| Lebrija         | La Voz de Lebrija                                           | 91.2 MHz            | HKL36                 | Zonal Restringido                    | Indirecta                              | B                        |
-| Bucaramanga     | Policía Nacional Bucaramanga                                | 91.9 MHz            | HJQ93                 | Zonal                                | Directa                                | Zonal                    |
-| Lebrija         | Radionica                                                   | 92.3 MHz            | HJZM                  | Zonal                                | Directa                                | C                        |
-| Bucaramanga     | Colombia Estéreo                                            | 92.9 MHz            | HJA87                 | Zonal                                | Directa                                | A                        |
-| Bucaramanga     | Emisora Comunitaria La Brújula - Área de Servicio No. 1     | 93.4 MHz            | HUJ94                 | Local Restringido                    | Indirecta                              | D                        |
-| Bucaramanga     | Tropicana                                                   | 95.7 MHz            | HJNH                  | Zonal                                | Indirecta                              | B                        |
-| Bucaramanga     | Santo Tomás Estéreo                                         | 96.2 MHz            | HJB91                 | Zonal                                | Directa                                | B                        |
+| Municipio       | Nombre comercial de la Emisora                              | Frecuencia Asignada | Distintivo de Llamada | Clase de emisora según área de servicio | Clase de emisora según gestión de servicio | Clase de emisora según el PTNRS | Clase de emisora según área de servicio |
+|-----------------|-------------------------------------------------------------|---------------------|-----------------------|-----------------------------------------|---------------------------------------------|---------------------------------|-----------------------------------------|
+| Bucaramanga     | Emisora Cultural Luis Carlos Galán Sarmiento               | 100.7 MHz           | HJC95                 | Zonal                                   | Directa                                     | B                               | Zonal                                   |
+| Bucaramanga     | UTS - Tu Radio Stereo                                       | 101.7 MHz           | HJC99                 | Zonal                                   | Directa                                     | C                               | Zonal                                   |
+| Bucaramanga     | La Mega Estéreo                                             | 102.5 MHz           | HJQ66                 | Zonal                                   | Indirecta                                   | B                               | Zonal                                   |
+| San Juan de Girón | Rumba Estéreo                                             | 103.7 MHz           | HJA83                 | Zonal                                   | Indirecta                                   | C                               | Zonal                                   |
+| Floridablanca   | Bésame                                                      | 104.7 MHz           | HJYF                  | Zonal                                   | Indirecta                                   | C                               | Zonal                                   |
+| Bucaramanga     | La Guapachosa 105.1                                         | 105.1 MHz           | HUJ95                 | Local Restringido                       | Indirecta                                   | D                               | Local Restringido                       |
+| Piedecuesta     | Radio Uno                                                   | 106.7 MHz           | HJYC                  | Zonal                                   | Indirecta                                   | C                               | Zonal                                   |
+| Floridablanca   | La U Radio                                                  | 107.1 MHz           | HKL21                 | Zonal Restringido                       | Indirecta                                   | D                               | Zonal Restringido                       |
+| San Juan de Girón | Emisora Comunitaria San Juan de Girón                     | 88.2 MHz            | HKL24                 | Zonal Restringido                       | Indirecta                                   | D                               | Zonal Restringido                       |
+| Floridablanca   | Emisora Comunitaria en Floridablanca                        | 88.8 MHz            | HJS57                 | Zonal                                   | Indirecta                                   | C                               | Zonal                                   |
+| Bucaramanga     | W Radio                                                     | 90.7 MHz            | HJQ34                 | Zonal                                   | Indirecta                                   | B                               | Zonal                                   |
+| Lebrija         | La Voz de Lebrija                                           | 91.2 MHz            | HKL36                 | Zonal Restringido                       | Indirecta                                   | B                               | Zonal Restringido                       |
+| Bucaramanga     | Policía Nacional Bucaramanga                                | 91.9 MHz            | HJQ93                 | Zonal                                   | Directa                                     | B                               | Zonal                                   |
+| Lebrija         | Radionica                                                   | 92.3 MHz            | HJZM                  | Zonal                                   | Directa                                     | C                               | Zonal                                   |
+| Bucaramanga     | Colombia Estéreo                                            | 92.9 MHz            | HJA87                 | Zonal                                   | Directa                                     | A                               | Zonal                                   |
+| Bucaramanga     | Emisora Comunitaria La Brújula - Área de Servicio No. 1     | 93.4 MHz            | HUJ94                 | Local Restringido                       | Indirecta                                   | D                               | Local Restringido                       |
+| Bucaramanga     | Tropicana                                                   | 95.7 MHz            | HJNH                  | Zonal                                   | Indirecta                                   | B                               | Zonal                                   |
+| Bucaramanga     | Santo Tomás Estéreo                                         | 96.2 MHz            | HJB91                 | Zonal                                   | Directa                                     | B                               | Zonal                                   |
 
----
 
 **Fuente de respaldo (imagen oficial):**  
 ![Tabla Fase 1](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Mision_4/Tabla_Fase1.PNG)
@@ -148,26 +147,27 @@ Como observación se añadió la señal encontrada en 96.9 que no se encontraba 
 
 Tabla maestra comparativa entre la lista oficial (Fase 1) y el monitoreo de campo (Fase 2).
 
-| Frecuencia Oficial (MHz) | Nombre Emisora (Oficial)                                     | Frecuencia Detectada (Campo) | Potencia relativa (dB) | Clasificación |
-|--------------------------:|--------------------------------------------------------------|------------------------------:|------------------------:|---------------|
-| 88.2                      | Emisora Comunitaria San Juan de Girón                        | No detectada                  | –                       | No detectada  |
-| 88.8                      | Emisora Comunitaria en Floridablanca                         | No detectada                  | –                       | No detectada  |
-| 90.7                      | W Radio                                                      | 90.7                          | -38.36                  | Coincidencia Legal (CL) |
-| 91.2                      | La Voz de Lebrija                                            | No detectada                  | –                       | No detectada  |
-| 91.9                      | Policía Nacional Bucaramanga                                 | No detectada                  | –                       | No detectada  |
-| 92.3                      | Radiónica                                                    | 92.3                          | -54.82                  | Coincidencia Legal (CL) |
-| 92.9                      | Colombia Estéreo                                             | 92.9                          | -45.24                  | Coincidencia Legal (CL) |
-| 93.4                      | Emisora Comunitaria La Brújula                               | 93.4                          | -47.35                  | Coincidencia Legal (CL) |
-| 95.7                      | Tropicana                                                    | 95.7                          | -43.59                  | Coincidencia Legal (CL) |
-| 96.2                      | Santo Tomás Estéreo                                          | 96.2                          | -68.14                  | Coincidencia Legal (CL) |
-| 100.7                     | Emisora Cultural Luis Carlos Galán                           | 100.7                         | -55.56                  | Coincidencia Legal (CL) |
-| 101.7                     | UTS - Tu Radio Stereo                                        | 101.7                         | -64.35                  | Coincidencia Legal (CL) |
-| 102.5                     | La Mega Estéreo                                              | 102.5                         | -53.60                  | Coincidencia Legal (CL) |
-| 103.7                     | Rumba Estéreo                                                | 103.7                         | -56.36                  | Coincidencia Legal (CL) |
-| 104.7                     | Bésame                                                       | 104.7                         | -55.25                  | Coincidencia Legal (CL) |
-| 105.1                     | La Guapachosa 105.1                                          | 105.1                         | -73.47                  | Coincidencia Legal (CL) |
-| 106.7                     | Radio Uno                                                    | 106.7                         | -65.95                  | Coincidencia Legal (CL) |
-| 107.1                     | La U Radio                                                   | No detectada                  | –                       | No detectada  |
+| Frecuencia Oficial (MHz) | Nombre Emisora (Oficial)                     | Frecuencia Detectada (Campo) | Potencia relativa (dB) | Clasificación       | Código |
+|--------------------------|-----------------------------------------------|------------------------------|------------------------|---------------------|--------|
+| 88.2                     | Emisora Comunitaria San Juan de Girón        | No detectada                  | –                      | No detectada        | ND     |
+| 88.8                     | Emisora Comunitaria en Floridablanca         | No detectada                  | –                      | No detectada        | ND     |
+| 90.7                     | W Radio                                      | 90.7                          | -38.36                 | Coincidencia Legal  | CL     |
+| 91.2                     | La Voz de Lebrija                            | No detectada                  | –                      | No detectada        | ND     |
+| 91.9                     | Policía Nacional Bucaramanga                 | No detectada                  | –                      | No detectada        | ND     |
+| 92.3                     | Radiónica                                    | 92.3                          | -54.82                 | Coincidencia Legal  | CL     |
+| 92.9                     | Colombia Estéreo                             | 92.9                          | -45.24                 | Coincidencia Legal  | CL     |
+| 93.4                     | Emisora Comunitaria La Brújula               | 93.4                          | -47.35                 | Coincidencia Legal  | CL     |
+| 95.7                     | Tropicana                                    | 95.7                          | -43.59                 | Coincidencia Legal  | CL     |
+| 96.2                     | Santo Tomás Estéreo                          | 96.2                          | -68.14                 | Coincidencia Legal  | CL     |
+| 100.7                    | Emisora Cultural Luis Carlos Galán           | 100.7                         | -55.56                 | Coincidencia Legal  | CL     |
+| 101.7                    | UTS - Tu Radio Stereo                        | 101.7                         | -64.35                 | Coincidencia Legal  | CL     |
+| 102.5                    | La Mega Estéreo                              | 102.5                         | -53.60                 | Coincidencia Legal  | CL     |
+| 103.7                    | Rumba Estéreo                                | 103.7                         | -56.36                 | Coincidencia Legal  | CL     |
+| 104.7                    | Bésame                                       | 104.7                         | -55.25                 | Coincidencia Legal  | CL     |
+| 105.1                    | La Guapachosa 105.1                          | 105.1                         | -73.47                 | Coincidencia Legal  | CL     |
+| 106.7                    | Radio Uno                                    | 106.7                         | -65.95                 | Coincidencia Legal  | CL     |
+| 107.1                    | La U Radio                                   | No detectada                  | –                      | No detectada        | ND     |
+
 
 **Señales detectadas en campo sin registro oficial** (añadidas a la tabla como TNI):
 
