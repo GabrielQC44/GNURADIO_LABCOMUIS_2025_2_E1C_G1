@@ -145,7 +145,42 @@ Como observación se añadió la señal encontrada en 96.9 que no se encontraba 
 
 ## Fase 3: Análisis y Cruce de Datos
 
-Durante el monitoreo de campo se detectaron tres señales inicialmente clasificadas como **Transmisiones No Identificadas (TNI)**.  
+
+**Señales detectadas en campo sin registro oficial** (añadidas a la tabla como TNI):
+
+| Frecuencia Detectada (MHz) | Potencia relativa (dB) | Clasificación                      |
+|---------------------------:|------------------------:|------------------------------------|
+| 91.7                       | -24.37                 | Transmisión No Identificada (TNI)  |
+| 94.7                       | -65.51                 | Transmisión No Identificada (TNI)  |
+| 96.9                       | -46.91                 | Transmisión No Identificada (TNI)  |
+
+
+Tabla comparativa entre la lista oficial (Fase 1) y el monitoreo de campo (Fase 2).
+
+| Frecuencia Oficial (MHz) | Nombre Emisora (Oficial)               | Frecuencia Detectada (Campo) | Potencia relativa (dB) | Clasificación       | Código |
+|--------------------------|----------------------------------------|------------------------------|------------------------|---------------------|--------|
+| 88.2                     | Emisora Comunitaria San Juan de Girón  | No detectada                  | –                      | No detectada        | ND     |
+| 88.8                     | Emisora Comunitaria en Floridablanca   | No detectada                  | –                      | No detectada        | ND     |
+| 90.7                     | W Radio                                | 90.7                          | -38.36                 | Coincidencia Legal  | CL     |
+| 91.2                     | La Voz de Lebrija                      | No detectada                  | –                      | No detectada        | ND     |
+| 91.9                     | Policía Nacional Bucaramanga           | No detectada                  | –                      | No detectada        | ND     |
+| 92.3                     | Radiónica                              | 92.3                          | -54.82                 | Coincidencia Legal  | CL     |
+| 92.9                     | Colombia Estéreo                       | 92.9                          | -45.24                 | Coincidencia Legal  | CL     |
+| 93.4                     | Emisora Comunitaria La Brújula         | 93.4                          | -47.35                 | Coincidencia Legal  | CL     |
+| 95.7                     | Tropicana                              | 95.7                          | -43.59                 | Coincidencia Legal  | CL     |
+| 96.2                     | Santo Tomás Estéreo                    | 96.2                          | -68.14                 | Coincidencia Legal  | CL     |
+| 100.7                    | Emisora Cultural Luis Carlos Galán     | 100.7                         | -55.56                 | Coincidencia Legal  | CL     |
+| 101.7                    | UTS - Tu Radio Stereo                  | 101.7                         | -64.35                 | Coincidencia Legal  | CL     |
+| 102.5                    | La Mega Estéreo                        | 102.5                         | -53.60                 | Coincidencia Legal  | CL     |
+| 103.7                    | Rumba Estéreo                          | 103.7                         | -56.36                 | Coincidencia Legal  | CL     |
+| 104.7                    | Bésame                                 | 104.7                         | -55.25                 | Coincidencia Legal  | CL     |
+| 105.1                    | La Guapachosa 105.1                    | 105.1                         | -73.47                 | Coincidencia Legal  | CL     |
+| 106.7                    | Radio Uno                              | 106.7                         | -65.95                 | Coincidencia Legal  | CL     |
+| 107.1                    | La U Radio                             | No detectada                  | –                      | No detectada        | ND     |
+
+---
+
+Durante el monitoreo de campo se detectaron tres señales inicialmente clasificadas como Transmisiones No Identificadas (TNI).  
 Tras la verificación en fuentes externas, se identificó que corresponden a emisoras legalmente establecidas en Bucaramanga:
 
 - **91.7 MHz – Radio Policía Bucaramanga**  
@@ -181,5 +216,70 @@ Estas emisoras se incorporaron a la Tabla Maestra como **Coincidencias Legales (
 | 105.1                    | La Guapachosa 105.1                    | 105.1                         | -73.47                 | Coincidencia Legal | CL     |
 | 106.7                    | Radio Uno                              | 106.7                         | -65.95                 | Coincidencia Legal | CL     |
 | 107.1                    | La U Radio                             | No detectada                  | –                      | No detectada       | ND     |
+
+
+
+# 📡 Reporte de Misión – Monitoreo de Espectro FM Bucaramanga
+
+## Resultados y Hallazgos
+
+- Se realizó un cruce entre la **Lista Oficial de Emisoras (ANE)** y el **Monitoreo de Campo**, obteniendo la **Tabla Maestra Comparativa**.  
+- Se detectaron **tres transmisiones inicialmente clasificadas como TNI**, pero tras verificación externa se confirmaron como **Coincidencias Legales (CL)**:  
+  - 91.7 MHz – Radio Policía Bucaramanga  
+  - 94.7 MHz – KV 94.7 FM  
+  - 96.9 MHz – UIS Estéreo Bucaramanga  
+
+**Tabla Maestra:**  
+(Aquí insertas la tabla comparativa que ya hiciste en Fase 3).  
+
+📷 **Captura de espectro panorámica:**  
+*(Inserta aquí la imagen del escaneo de 88 a 108 MHz, señalando las principales emisoras detectadas).*  
+
+---
+
+## Análisis y Discusión
+
+### Lista de Anomalías
+- 88.2 MHz – Emisora Comunitaria San Juan de Girón  
+- 88.8 MHz – Emisora Comunitaria en Floridablanca  
+- 91.2 MHz – La Voz de Lebrija  
+- 91.9 MHz – Policía Nacional Bucaramanga  
+- 107.1 MHz – La U Radio  
+
+### Análisis de Discrepancias
+1. Transmisión fuera de operación temporalmente.  
+2. Cobertura limitada o licencia en municipio cercano cuya señal no llega con suficiente potencia.  
+3. Errores administrativos o registros desactualizados.  
+
+### Análisis con Dispositivos Certificados
+- Según el **Plan Técnico de Radiodifusión Sonora en FM**, cada emisora debe ocupar un ancho de canal de 200 kHz y mantener separación mínima de 400 kHz.  
+- Las señales detectadas cumplen en general con estos parámetros.  
+- Se recomienda verificar con analizador de espectro certificado el ancho de banda y potencia de las emisoras no detectadas.  
+
+### Retos de la Misión
+- Señales muy débiles (< -65 dB).  
+- Ruido de fondo en la banda FM.  
+- Monitoreo realizado en un solo horario (sin comparación entre franjas).  
+
+---
+
+## Conclusiones y Recomendaciones
+
+### Conclusiones
+- El espectro FM en Bucaramanga está mayormente en conformidad con los registros de la ANE.  
+- Se identificaron cinco emisoras no detectadas, principalmente comunitarias o institucionales.  
+- Las tres señales inicialmente clasificadas como TNI se verificaron como emisoras legales.  
+
+### Recomendaciones
+1. Realizar inspección en sitio para las frecuencias 88.2, 88.8, 91.2, 91.9 y 107.1 MHz.  
+2. Repetir mediciones en distintos horarios para confirmar transmisiones intermitentes.  
+3. Actualizar registros de emisoras comunitarias.  
+4. Reportar a la Dirección de Vigilancia y Control de la ANE las emisoras no detectadas para posible investigación.  
+
+
+
+
+
+
 
 
