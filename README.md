@@ -219,7 +219,7 @@ Estas emisoras se incorporaron a la Tabla Maestra como **Coincidencias Legales (
 
 
 
-# 📡 Reporte de Misión – Monitoreo de Espectro FM Bucaramanga
+#  Reporte de Misión – Monitoreo de Espectro FM Bucaramanga
 
 ## Resultados y Hallazgos
 
