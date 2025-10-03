@@ -39,49 +39,40 @@ Conecte la salida de transmisión (TX1 / RX1) de su SDR al atenuador, y la salid
 - Repita el procedimiento con las señales diente de sierra y triangular.
 
 **Señal senoidal (1 kHz):**  
-*(inserte aquí la imagen)*  
+![Fase2_1](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_1.jpg)  *  
+
+
+Se le aplico un KP de 1 y esto ocasiono que el offset se duplicara, siendo de 10.76.
+
+**Señal senoidal con KP 1 (1 kHz):** 
+![Fase2_3](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_3.jpg)  
+
+
+**Señal senoidal con KP 0 (1 kHz):**
+![Fase2_4](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_4.jpg)  
 
 **Señal cuadrada (1 kHz):**  
-*(inserte aquí la imagen)*  
+![Fase2_5](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_5.jpg)  
+![Fase2_8](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_8.jpg)  
 
 **Señal diente de sierra (1 kHz):**  
-*(inserte aquí la imagen)*  
+
+![Fase2_10](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_10.jpg)  
 
 **Señal triangular (1 kHz):**  
-*(inserte aquí la imagen)*  
+![Fase2_9](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_9.jpg)  
 
 ### Modulación con Audio
 - Seleccione el diagrama de flujo de AM.  
 - Utilice la fuente de audio (micrófono) y hable o reproduzca sonido.  
 - Observe cómo la amplitud de la portadora sigue la forma de onda de la voz.
 
-**Señal de audio (voz/micrófono):**  
-*(inserte aquí la imagen)*  
+**Señal de audio (voz/micrófono):**
+![Fase2_6](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_6.jpg)  
+
 
 
 ---
-
-## Evidencias (todas las fotos)
-
-![Fase2_1](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_1.jpg)  
-
-![Fase2_2](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_2.jpg)  
-
-![Fase2_3](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_3.jpg)  
-
-![Fase2_4](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_4.jpg)  
-
-![Fase2_5](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_5.jpg)  
-
-![Fase2_6](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_6.jpg)  
-
-![Fase2_7](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_7.jpg)  
-
-![Fase2_8](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_8.jpg)  
-
-![Fase2_9](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_9.jpg)  
-
-![Fase2_10](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase2_10.jpg)  
 
 
 
