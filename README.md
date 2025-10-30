@@ -15,6 +15,9 @@ Misión 4: Vigilancia del Espectro Legal
 
 Misión 5: Creando nuestra propia antena
 
+Misión 6: Nuestra Propia Emisora FM Estéreo
+
+Misión 7: inteligencia Artificial con Gnu Radio
 
 
 
