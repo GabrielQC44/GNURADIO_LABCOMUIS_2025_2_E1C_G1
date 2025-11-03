@@ -148,6 +148,26 @@ Por tanto, para corregir el desajuste observado experimentalmente, se recomienda
 
 
 
+## Conclusiones:
+
+- El diseño y simulación en MATLAB Antenna Toolbox permitió comprender la relación entre las dimensiones físicas de la antena Biquad y su frecuencia de resonancia.  
+  Los resultados simulados mostraron una frecuencia de operación en 915 MHz, dentro de la banda ISM, con un patrón de radiación direccional tipo broadside, como se esperaba teóricamente.
+
+- Durante la construcción del prototipo, se verificó la importancia de la **precisión mecánica**: pequeñas variaciones en las longitudes, en el ángulo de los dobleces o en la separación con el reflector modifican la longitud eléctrica efectiva, provocando un corrimiento en la frecuencia de resonancia.
+
+- En la medición con el Analizador Vectorial de Redes (VNA) se observó un mínimo en S₁₁ alrededor de 1274 MHz, lo que representa un desplazamiento del ~39 % respecto a la frecuencia simulada.  
+  Este corrimiento confirma la sensibilidad de la antena a las tolerancias de fabricación, al entorno de prueba y a elementos no modelados (como el conector SMA y los cables coaxiales).
+
+- Pese al desplazamiento en frecuencia, la antena mostró un patrón de radiación direccional coherente con la simulación, concentrando la energía hacia el frente del reflector y validando el principio de funcionamiento de la antena Biquad.
+
+- Para mejorar la coincidencia entre simulación y medición, se recomienda:
+  - Incluir el modelo del conector y entorno en futuras simulaciones.  
+  - Ajustar las dimensiones físicas aumentando aproximadamente un **39 %** para compensar el corrimiento.  
+  - Realizar mediciones en un entorno libre de objetos metálicos y con sujeción fija.
+
+**Conclusión general:**  
+La práctica permitió integrar teoría electromagnética, simulación y experimentación, demostrando cómo los parámetros físicos influyen directamente en el comportamiento real de una antena. Aun con el desplazamiento en frecuencia, el diseño cumplió su propósito de generar una antena direccional funcional, adecuada para aplicaciones IoT en la banda ISM.
+
 
 
 
