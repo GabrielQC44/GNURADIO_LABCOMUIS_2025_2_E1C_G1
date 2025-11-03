@@ -69,6 +69,32 @@ El resultado final fue exportado en formato .wav estéreo, con dos canales (izqu
 
 
 
+## Fase 2 – Generación de la señal MPX estéreo
+
+
+### Objetivos específicos
+
+#### 2.1 Cargar el archivo de audio estéreo en el entorno de desarrollo (GNU Radio)
+
+
+
+
+
+#### 2.2 Implementar los bloques o el código necesario para generar los componentes de la señal MPX
+
+
+
+
+#### 2.3 Combinar (sumar) las tres señales anteriores para formar la señal MPX final
+
+
+
+
+#### 2.4 Analizar el espectro de la señal MPX resultante y verificar la correcta ubicación y amplitud relativa de cada uno de sus componentes
+
+
+
+
 
 
 
