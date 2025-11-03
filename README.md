@@ -3,7 +3,7 @@ Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo
 
 # Misión 4: Vigilancia del Espectro Legal  
 
-## Contexto  
+## Introducción  
 Usted ha sido designado como un inspector de campo de la **Agencia Nacional del Espectro (ANE)**.  
 Hemos recibido reportes de posibles interferencias en la banda de radiodifusión comercial en Bucaramanga.  
 Su misión es realizar una auditoría del **espectro FM** para verificar que todas las transmisiones activas operen con una licencia válida y en sus parámetros autorizados, identificando cualquier posible transmisión ilegal.  
