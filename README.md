@@ -102,6 +102,22 @@ A continuación se explicará, paso a paso, cada bloque del esquema siguiendo lo
 
 
 
+## Fase 3:
+
+### Objetivos específicos
+
+
+Objetivo Específico 3.2: Configurar los parámetros del USRP (frecuencia central de transmisión, ganancia, tasa de muestreo) para emitir la señal en una frecuencia libre dentro de la banda FM comercial (88-108 MHz).
+
+
+Objetivo Específico 3.3: Iniciar la transmisión y utilizar un receptor de radio FM comercial para sintonizar la señal.
+
+
+Objetivo Específico 3.4: Validar cualitativamente la calidad del audio recibido y confirmar que el indicador "Stereo" del receptor se activa, lo que prueba la correcta generación y detección del piloto de 19 kHz.
+
+
+
+
 
 
 
