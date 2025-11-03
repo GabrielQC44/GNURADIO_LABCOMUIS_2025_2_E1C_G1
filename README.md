@@ -2,7 +2,7 @@
 Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias
 
 
-### Misión 7: inteligencia Artificial con Gnu Radio
+# Misión 7: inteligencia Artificial con Gnu Radio
 
 ### Contexto 
 
