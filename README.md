@@ -1,6 +1,8 @@
 # GNURADIO_LABCOMUIS_2025_2_E1C_G1
 Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias
 
+# Mision 3. Modulacion de onda continua
+
 # Fase 1: Diseño y Configuración del Modulador (Preparación Técnica)
 
 ## Montaje del Entorno
