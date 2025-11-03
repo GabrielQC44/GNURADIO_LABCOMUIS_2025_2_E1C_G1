@@ -72,6 +72,13 @@ El resultado final fue exportado en formato .wav estéreo, con dos canales (izqu
 ## Fase 2 – Generación de la señal MPX estéreo
 
 
+El siguiente es el esquema completo del sistema:  
+![Diagrama completo](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/misión_6/imagenes/Misión_6/Diagrama_Completo.jpg)
+
+A continuación se explicará, paso a paso, cada bloque del esquema siguiendo los objetivos específicos.
+
+
+
 ### Objetivos específicos
 
 #### 2.1 Cargar el archivo de audio estéreo en el entorno de desarrollo (GNU Radio)
