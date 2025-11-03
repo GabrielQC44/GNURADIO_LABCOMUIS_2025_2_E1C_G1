@@ -2,7 +2,7 @@
 Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias
 
 
-## Introducción
+## Contexto
 
 En esta práctica se desarrolla el diseño, simulación, construcción y validación de una antena Biquad direccional operando en la banda ISM de 915 MHz.  
 El objetivo es mejorar la recepción de señal en un nodo de una red **IoT** dentro del campus universitario, sin aumentar la potencia de transmisión.
