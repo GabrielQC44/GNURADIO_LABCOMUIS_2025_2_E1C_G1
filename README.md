@@ -82,7 +82,7 @@ A continuación se explicará, paso a paso, cada bloque del esquema siguiendo lo
 #### 2.1 Cargar el archivo de audio estéreo en el entorno de desarrollo (GNU Radio)
 
 
-![Audio cargado]([https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/misión_6/imagenes/Misión_6/Diagrama_Completo.jpg](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/misión_6/imagenes/Misión_6/2.1.PNG))
+![Audio cargado](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/misión_6/imagenes/Misión_6/2.1.PNG)
 
 
 #### 2.2 Implementar los bloques o el código necesario para generar los componentes de la señal MPX
