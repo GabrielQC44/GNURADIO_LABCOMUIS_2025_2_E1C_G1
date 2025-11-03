@@ -14,8 +14,6 @@ La emisora local ha quedado impresionada con la demostración de la superioridad
 ### Objetivo general
 Diseñar y producir un bloque de programación de entre 60 y 90 segundos que combine elementos de audio como introducción, locución y música, destinado a su posterior transmisión en FM estéreo.
 
-# Misión 6: Nuestra Propia Emisora FM Estéreo
-## Fase 1 – Creación del bloque de programación
 
 ### Contexto
 En esta fase se desarrolla el material sonoro base para una emisora temática de fútbol llamada "Radio Gol Colombia FM".  
