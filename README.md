@@ -107,4 +107,18 @@ Se le aplico un KP de 1 y esto ocasiono que el offset se duplicara, siendo de 10
 ![Señal de espectro Fase 3](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_3/Fase3_1.jpg)
 
 
+##  Conclusiones
+
+- Se comprobó que el modulador AM del SDR responde correctamente a diferentes tipos de señales moduladoras, reflejando en la envolvente los cambios de amplitud y frecuencia de cada una.  
+- La señal **sinusoidal** generó un espectro limpio y simétrico, con alta fidelidad y mínima distorsión.  
+- La señal **cuadrada** mostró una envolvente con transiciones bruscas y un espectro más ancho debido a la presencia de múltiples armónicos.  
+- La **triangular** presentó un comportamiento más estable que la cuadrada, con un espectro más “suave” y menor contenido armónico.  
+- La **diente de sierra** evidenció un espectro amplio y denso en armónicos, demostrando mayor complejidad en la modulación.  
+- La señal **de audio** produjo una envolvente irregular y un espectro variable, dependiente del contenido sonoro, mostrando la capacidad del sistema para modular información real.  
+- En general, se observó que a medida que aumenta la complejidad de la señal moduladora, el **ancho de banda ocupado** también crece, y la envolvente se vuelve menos uniforme.  
+- El uso del SDR permitió visualizar claramente la relación entre el dominio del tiempo y el de la frecuencia, reforzando los principios teóricos de la modulación AM.
+
+
+
+
 
