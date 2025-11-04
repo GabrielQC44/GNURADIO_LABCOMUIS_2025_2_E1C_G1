@@ -87,11 +87,16 @@ A continuación se explicará, paso a paso, cada bloque del esquema siguiendo lo
 
 #### 2.2 Implementar los bloques o el código necesario para generar los componentes de la señal MPX
 
+![](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/misión_6/imagenes/Misión_6/2.2.PNG)
 
+Aquí se observa la suma L+R, la señal piloto que es la cosenoidal y la resta (L−R).  
+La señal de 38 kHz, que actúa como subportadora, se genera a partir del bloque identificado como "Multiply", el cual realiza la modulación AM de Doble Banda Lateral
 
 
 #### 2.3 Combinar (sumar) las tres señales anteriores para formar la señal MPX final
 
+
+![](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/misión_6/imagenes/Misión_6/2.3.PNG)
 
 
 
