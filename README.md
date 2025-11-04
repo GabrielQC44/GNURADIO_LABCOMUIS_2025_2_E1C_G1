@@ -104,7 +104,6 @@ La señal de 38 kHz, que actúa como subportadora, se genera a partir del bloque
 
 
 
-
 ## Fase 3:
 
 ### Objetivos específicos
@@ -112,11 +111,44 @@ La señal de 38 kHz, que actúa como subportadora, se genera a partir del bloque
 
 #### 3.2 Configurar los parámetros del USRP (frecuencia central de transmisión, ganancia, tasa de muestreo) para emitir la señal en una frecuencia libre dentro de la banda FM comercial (88-108 MHz).
 
+Se configuró el esquema mostrado en la figura:
+
+![](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/misión_6/imagenes/Misión_6/Diagrama_Completo.jpg)
+
 
 #### 3.3: Iniciar la transmisión y utilizar un receptor de radio FM comercial para sintonizar la señal.
 
-
 #### 3.4: Validar cualitativamente la calidad del audio recibido y confirmar que el indicador "Stereo" del receptor se activa, lo que prueba la correcta generación y detección del piloto de 19 kHz.
+
+
+Se buscó una frecuencia libre para emitir el audio sin interferir con emisoras comerciales, verificando el espectro en el analizador de espectro para asegurar que la portadora utilizada no coincidiera con ninguna frecuencia activa en la banda FM local.
+
+
+![](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/misión_6/imagenes/Misión_6/Espectro.jpg)
+
+
+[ Descargar video de FM funcionando en radio](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/raw/misión_6/imagenes/Misión_6/Video_Prueba.mp4)
+
+
+
+## Conclusiones
+
+La implementación de la emisora FM estéreo permitió comprender de forma práctica cómo se construye la señal multiplexada (MPX) que transmite información de audio en dos canales (izquierdo y derecho) junto al tono piloto de 19 kHz y la subportadora de 38 kHz para el canal diferencial (L–R).
+
+El uso de GNU Radio facilitó el diseño modular del sistema, permitiendo observar claramente cada etapa del procesamiento: desde la lectura del archivo estéreo hasta la generación del espectro final de la señal compuesta.
+
+Se comprobó experimentalmente que el bloque de suma y resta (L+R / L–R), junto con la modulación DSB-SC de la subportadora de 38 kHz, son elementos clave para garantizar la compatibilidad monofónica y la reconstrucción estéreo en receptores convencionales.
+
+El proceso de prueba en hardware, con la transmisión en una frecuencia libre dentro de la banda comercial, demostró que el sistema podía ser recibido por radios FM convencionales sin interferir con otras emisoras, validando la correcta generación de la señal.
+
+El desarrollo de la práctica permitió integrar conceptos de modulación analógica, multiplexación, espectro de frecuencia y procesamiento digital de señales, fortaleciendo la comprensión del funcionamiento interno de una emisora FM estéreo real.
+
+
+
+
+
+
+
 
 
 
