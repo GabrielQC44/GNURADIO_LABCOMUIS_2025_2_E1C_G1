@@ -98,10 +98,15 @@ La señal de 38 kHz, que actúa como subportadora, se genera a partir del bloque
 
 ![](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/misión_6/imagenes/Misión_6/2.3.PNG)
 
+Aquí se observa la suma de las 3 señales, (L+R) + (la señal piloto) + (la señal al doble de la frecuencia*(L-R)), cabe mencionar que como la señal piloto se multiplico por si misma, genera una componente DC y esta fue filtrada con ayuda del bloque pasabanda.
+
+
+
 
 
 #### 2.4 Analizar el espectro de la señal MPX resultante y verificar la correcta ubicación y amplitud relativa de cada uno de sus componentes
 
+![](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/main/imagenes/Misi%C3%B3n_6/Espectro_MPX.png)
 
 
 ## Fase 3:
