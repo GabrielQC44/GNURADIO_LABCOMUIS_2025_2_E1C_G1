@@ -122,6 +122,7 @@ Se configuró el esquema mostrado en la figura:
 
 
 #### 3.3: Iniciar la transmisión y utilizar un receptor de radio FM comercial para sintonizar la señal.
+Se incio la trasmisión y en el video se puede observar como se escucha el audio. 
 
 #### 3.4: Validar cualitativamente la calidad del audio recibido y confirmar que el indicador "Stereo" del receptor se activa, lo que prueba la correcta generación y detección del piloto de 19 kHz.
 
