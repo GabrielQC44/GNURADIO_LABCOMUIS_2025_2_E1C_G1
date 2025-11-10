@@ -80,7 +80,8 @@ El banco de pruebas incluye:
 
 ## Pruebas y Resultados
 
-###  Prueba 1: Ruido Gaussiano  
+###  Prueba 1: Ruido Gaussiano 
+
 Se ejecutó el diagrama de flujo con una fuente de ruido gaussiano.  
 El sistema mostró valores estables de potencia, media y desviación estándar, confirmando que los bloques personalizados funcionan correctamente en tiempo real.  
 
