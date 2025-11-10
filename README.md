@@ -139,7 +139,6 @@ La magnitud es constante ≈1 (media ≈1), desviación estándar ≈0; la poten
 
 # Validación de Señal: Ruido vs Tono
 
-## 1. Objetivo
 Comparar valores teóricos vs valores medidos de:
 - Ruido aleatorio (Noise Source)
 - Tono senoidal (Signal Source, Cosine, A=1)
