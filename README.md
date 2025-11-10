@@ -89,7 +89,7 @@ Posteriormente se modificó la amplitud del Noise Source, observándose lo sigui
 - La **media** se mantuvo cercana a cero (por la simetría del ruido).  
 - La desviación estándar creció junto con la potencia, reflejando mayor variabilidad en las muestras.  
 
-## 🧪 Fase 2 — Integración, Pruebas y Resultados en GNU Radio Companion
+##  Fase 2 — Integración, Pruebas y Resultados en GNU Radio Companion
 
 En esta fase se integraron los bloques desarrollados en **Embedded Python** para medir:
 
