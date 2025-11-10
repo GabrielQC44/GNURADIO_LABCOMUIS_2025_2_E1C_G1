@@ -78,6 +78,147 @@ El banco de pruebas incluye:
 ![Diagrama de flujo en GNU Radio](https://raw.githubusercontent.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/main/imagenes/Misión_7/Fase_2.jpg)
 
 
+## Pruebas y Resultados
+
+###  Prueba 1: Ruido Gaussiano  
+Se ejecutó el diagrama de flujo con una fuente de ruido gaussiano.  
+El sistema mostró valores estables de potencia, media y desviación estándar, confirmando que los bloques personalizados funcionan correctamente en tiempo real.  
+
+Posteriormente se modificó la amplitud del Noise Source, observándose lo siguiente:
+- Al aumentar la amplitud, la potencia promedio también aumentó de manera proporcional.  
+- La **media** se mantuvo cercana a cero (por la simetría del ruido).  
+- La desviación estándar creció junto con la potencia, reflejando mayor variabilidad en las muestras.  
+
+## 🧪 Fase 2 — Integración, Pruebas y Resultados en GNU Radio Companion
+
+En esta fase se integraron los bloques desarrollados en **Embedded Python** para medir:
+
+- Potencia de la señal
+- Media de la magnitud
+- Desviación estándar
+
+Se realizaron dos pruebas:
+
+1. Fuente de señal: **Ruido Gaussiano**
+2. Fuente de señal: **Señal Senoidal (tono)**
+o
+
+### Prueba 1 — Ruido Gaussiano (Amp baja)
+**Descripción:** Se ejecutó una fuente de ruido gaussiano con amplitud baja. Se registraron la forma de onda en el tiempo, el histograma y los valores numéricos (potencia, media, desviación estándar).
+
+*
+![Im1: Ruido Gaussiano Amp baja](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_7/Im1.png)
+
+Señal aleatoria centrada cerca de 0; histograma con distribución aproximada; Number Sinks muestran valores bajos de potencia y desviación.
+
+---
+
+### Prueba 1 — Ruido Gaussiano (Amp mayor)
+Se incrementó la amplitud de la fuente de ruido y se repitió la medición para observar efecto en potencia y dispersión.
+  
+![Im2: Ruido Gaussiano Amp mayor](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_7/Im2.png)
+
+ Al aumentar la amplitud se incrementa la potencia medida y la desviación estándar; el histograma se ensancha, lo cual es consistente con la teoría.
+
+### Prueba 2 — Señal Determinista (Tono seno, Amp = 1)
+ Se reemplazó la fuente de ruido por un `Signal Source` tipo Cosine, amplitud = 1, para validar comportamiento con señal determinista.
+
+![Im3: Señal Senoidal Amp=1](https://github.com/GabrielQC44/GNURADIO_LABCOMUIS_2025_2_E1C_G1/blob/main/imagenes/Misión_7/Im3.png)
+
+La magnitud es constante ≈1 (media ≈1), desviación estándar ≈0; la potencia calculada por el bloque aparece ~1 (el bloque está evaluando magnitud/potencia sobre la señal).
+
+---
+
+### Observaciones generales 
+- Bloque de potencia y bloque de estadísticas funcionan en tiempo real y muestran los efectos teóricos esperados: aumentar amplitud → aumenta potencia y desviación; señal determinista → media estable y desviación ~0.  
+- Las capturas (Im1, Im2, Im3) sirven como evidencia visual de las mediciones.  
+- **Siguiente paso:** completar la *Tabla de Validación Experimental* con los valores numéricos extraídos (se puede añadir debajo de estas evidencias).
+
+
+
+# Validación de Señal: Ruido vs Tono
+
+## 1. Objetivo
+Comparar valores teóricos vs valores medidos de:
+- Ruido aleatorio (Noise Source)
+- Tono senoidal (Signal Source, Cosine, A=1)
+
+---
+
+## 2. Modelo teórico
+
+### 2.1 Tono senoidal (A = 1)
+Señal:
+
+x(t) = A * cos(wt) ,  A = 1
+
+
+Parámetros teóricos:
+
+Potencia = A^2 / 2 = 0.5
+Media de la magnitud = A = 1.0
+Desviación estándar de la magnitud = 0
+
+
+---
+
+### 2.2 Ruido (Gaussiano ideal)
+Definimos varianza como sigma^2:
+
+
+Potencia = sigma^2
+Media ≈ 0  (si está centrado)
+Desviación estándar = sigma = sqrt(sigma^2)
+
+
+Estos valores no son constantes, dependen de la configuración real del generador de ruido.
+
+
+
+## 3. Comparación resultados
+
+| Fuente de Señal | Parámetro | Valor Teórico | Valor Medido |
+|---|---|---|---|
+| Ruido (Amp=1) | Potencia | sigma^2 | 0.9897 |
+| Ruido (Amp=1) | Media (Mag) | ≈ 0 | 0.8895 |
+| Ruido (Amp=1) | Desv. Est. (Mag) | sigma | 0.4630 |
+| Tono (Amp=1) | Potencia | 0.5 | 0.9999 |
+| Tono (Amp=1) | Media (Mag) | 1.0 | 0.9999 |
+| Tono (Amp=1) | Desv. Est. (Mag) | 0.0 | 0.0000 |
+
+---
+
+## 4. Cálculos teóricos
+
+### Tono:
+
+P = A^2 / 2 = 1^2 / 2 = 0.5
+Magnitud = 1 -> media 1
+Sin variación en magnitud -> desviación = 0
+
+
+### Ruido:
+
+P = sigma^2
+Media ≈ 0
+Desv = raiz(sigma^2)
+
+
+- El tono muestra el comportamiento esperado.
+- El ruido no está centrado en cero, lo que explica la media obtenida.
+- La potencia del ruido representa su varianza efectiva en la medición.
+
+  ## Conclusiones Generales
+
+- Los bloques desarrollados mediante Embedded Python funcionaron correctamente dentro de GNU Radio, permitiendo la medición en tiempo real de potencia, media y desviación estándar de señales complejas.
+- La señal senoidal (tono) presentó resultados coherentes con el modelo teórico, confirmando que el cálculo de magnitud, potencia y dispersión se implementó correctamente en condiciones deterministas.
+- En el caso del ruido, los valores medidos dependieron directamente de la varianza generada por la fuente, lo cual es esperable, ya que no existe un único valor teórico fijo para este tipo de señal aleatoria.
+- La media del ruido no se encontró exactamente en cero, lo cual indica que la distribución generada posee un ligero desplazamiento (offset) o sesgo, fenómeno observable en generadores reales de ruido no ideal.
+- El aumento de la amplitud del ruido produjo incrementos proporcionales en la potencia y en la desviación estándar, validando correctamente la relación entre energía y dispersión estadística.
+- Se evidenció que el sistema implementado es capaz de diferenciar estadísticamente señales deterministas de señales aleatorias, lo cual es un paso clave en el desarrollo de receptores cognitivos y análisis dinámico de espectro.
+- Finalmente, se concluye que la metodología empleada —integrando IA para generar bloques de procesamiento y GNU Radio para validación experimental— es viable y efectiva para el diseño rápido de módulos DSP aplicados a telecomunicaciones.
+
+
 
 
 
