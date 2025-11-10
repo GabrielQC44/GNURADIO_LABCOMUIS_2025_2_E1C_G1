@@ -215,8 +215,7 @@ Desv = raiz(sigma^2)
 - En el caso del ruido, los valores medidos dependieron directamente de la varianza generada por la fuente, lo cual es esperable, ya que no existe un único valor teórico fijo para este tipo de señal aleatoria.
 - La media del ruido no se encontró exactamente en cero, lo cual indica que la distribución generada posee un ligero desplazamiento (offset) o sesgo, fenómeno observable en generadores reales de ruido no ideal.
 - El aumento de la amplitud del ruido produjo incrementos proporcionales en la potencia y en la desviación estándar, validando correctamente la relación entre energía y dispersión estadística.
-- Se evidenció que el sistema implementado es capaz de diferenciar estadísticamente señales deterministas de señales aleatorias, lo cual es un paso clave en el desarrollo de receptores cognitivos y análisis dinámico de espectro.
-- Finalmente, se concluye que la metodología empleada —integrando IA para generar bloques de procesamiento y GNU Radio para validación experimental— es viable y efectiva para el diseño rápido de módulos DSP aplicados a telecomunicaciones.
+
 
 
 
