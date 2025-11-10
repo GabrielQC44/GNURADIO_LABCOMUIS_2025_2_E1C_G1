@@ -14,7 +14,7 @@ En esta misión se busca integrar el uso de herramientas de inteligencia artific
 ## Fase 1: Especificación y Generación (Ingeniería de Prompts)
 
 En esta fase se definieron los requerimientos de los bloques y se elaboraron los *prompts* necesarios para que una herramienta de inteligencia artificial generara el código en Python compatible con GNU Radio.  
-El propósito fue crear dos bloques personalizados: un **Estimador de Potencia** y un **Bloque de Estadísticas de Amplitud**, ambos diseñados como Embedded Python Blocks.
+El propósito fue crear dos bloques personalizados: un Estimador de Potencia y un Bloque de Estadísticas de Amplitud, ambos diseñados como Embedded Python Blocks.
 
 ---
 
@@ -39,8 +39,8 @@ Asegúrese de importar la biblioteca numpy.
 ## Bloque 2: Estadísticas de Amplitud
 
 **Descripción:**  
-Este bloque recibe una ventana de muestras complejas y calcula dos valores: la **media** y la **desviación estándar** de la magnitud.
-Se obtiene la magnitud de cada muestra y luego se calculan la **media** y la **desviación estándar** de ese conjunto de magnitudes utilizando funciones de `numpy`.
+Este bloque recibe una ventana de muestras complejas y calcula dos valores: la media y la desviación estándar de la magnitud.
+Se obtiene la magnitud de cada muestra y luego se calculan la media y la desviación estándar de ese conjunto de magnitudes utilizando funciones de `numpy`.
 
 ---
 
