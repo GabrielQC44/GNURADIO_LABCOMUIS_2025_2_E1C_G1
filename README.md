@@ -1,6 +1,11 @@
 # GNURADIO_LABCOMUIS_2025_2_E1C_G1
 Repositorio de laboratorio de Comunicaciones I . Presentado por : Gabriel Camilo Quijano Celis y Carlos Daniel Aguilera Iglesias
 
+## Explicación orden repositorio
+
+El repositorio está organizado en 7 misiones, cada una desarrollada en una rama independiente. Cada rama contiene un archivo README.md donde se documenta el proceso, los resultados y las evidencias correspondientes a esa misión.
+
+
 # Misiones
 
 Mision 0. Evidencia creación de cuenta en GITHUB
