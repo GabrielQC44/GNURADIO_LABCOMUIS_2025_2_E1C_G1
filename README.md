@@ -209,7 +209,7 @@ Desv = raiz(sigma^2)
 - El ruido no está centrado en cero, lo que explica la media obtenida.
 - La potencia del ruido representa su varianza efectiva en la medición.
 
-  ## Conclusiones Generales
+  ## Conclusiones
 
 - Los bloques desarrollados mediante Embedded Python funcionaron correctamente dentro de GNU Radio, permitiendo la medición en tiempo real de potencia, media y desviación estándar de señales complejas.
 - La señal senoidal (tono) presentó resultados coherentes con el modelo teórico, confirmando que el cálculo de magnitud, potencia y dispersión se implementó correctamente en condiciones deterministas.
